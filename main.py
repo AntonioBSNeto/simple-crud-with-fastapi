@@ -6,7 +6,7 @@ import models, schemas, crud
 from database import SessionLocal, engine
 
 # Criar as tabelas no banco automaticamente
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Simple CRUD API",
